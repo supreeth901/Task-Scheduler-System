@@ -1,4 +1,5 @@
 CFS Implementation
+
 For implementing the completely fair scheduler we made some adjustments to the algorithm but did
 not make any changes that would affect the core of the algorithm. We implemented the algorithm in the
 following way:
@@ -19,6 +20,7 @@ Data Structures and Programming Languages
 As stated in the project description, we have used following two types of data structures:
 1. Red Black Tree
 2. Min Heap (Using priority queue)
+
 We have implemented the CFS algorithm using the two data structures in java. We have then created a
 wrapper in python to call that algorithm. All the test cases have been designed and run using the python
 wrapper. We have used python since it was easier to plot graphs and generate random inputs for testing
